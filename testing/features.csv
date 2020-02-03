@@ -1,0 +1,5 @@
+name,description,dataSourceId,configurationScopeName,metadataUrl,oauth2RenderScopeName,oauth2ReportScopeName,oauth2ViewScopeName,featureViewCategoryId
+F1,"F1 desc","TEST_DATA_SOURCE","CONFIG_SCOPE","http://","RENDER1","REPORT1","VIEW1","TEST_FEATURE_VIEW_CATEGORY"
+F2,"F2 desc","TEST_DATA_SOURCE","CONFIG_SCOPE","http://","RENDER2","REPORT2","VIEW2","TEST_FEATURE_VIEW_CATEGORY"
+F3,"F3 desc","TEST_DATA_SOURCE","CONFIG_SCOPE","http://","RENDER3","REPORT3","VIEW3","TEST_FEATURE_VIEW_CATEGORY"
+F4,"F4 desc","TEST_DATA_SOURCE","CONFIG_SCOPE","http://","RENDER4","REPORT4","VIEW4","TEST_FEATURE_VIEW_CATEGORY"

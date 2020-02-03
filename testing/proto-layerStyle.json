@@ -1,0 +1,13 @@
+[
+  {
+    "object": "wmsLayerStyles",
+    "path": "serviceLayers/24243f33-62db-6db5-e055-0221f6ac0312",
+    "data": {
+      "@type": "http://cwm.gov.bc.ca/v1/wmsLayerStyle",
+      "name": "layer_style_name",
+      "title": "layer style title",
+      "definition": "style",
+      "definitionHash": "12345"
+    }  
+  }
+]

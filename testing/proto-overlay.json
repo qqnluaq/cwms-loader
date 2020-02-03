@@ -1,0 +1,17 @@
+[
+  {
+    "object": "overlays",
+    "path": "maps/TEST1.map_name",
+    "data": {
+      "@type": "http://cwm.gov.bc.ca/v1/overlay",
+      "name": "overlay_name",
+      "title": "overlay title",
+      "typeCode": "WMS",
+      "mapServiceId": "68e1ca77-7715-495f-8993-6494d9efe6c4",
+      "mapId": "TEST1.map_name",
+      "properties": {
+        "foo": "bar"
+      }
+    }  
+  }
+]

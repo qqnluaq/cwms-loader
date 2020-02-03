@@ -1,0 +1,10 @@
+[
+    {
+        "@parents": [{"name":"SERVICELAYER1"}],
+        "@type": "WMSLayerStyleResource",
+        "name": "STYLE1",
+        "title": "STYLE1 title",
+        "definition": "foo",
+        "definitionHash": null
+    }
+]

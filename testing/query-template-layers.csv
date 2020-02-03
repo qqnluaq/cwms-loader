@@ -1,0 +1,9 @@
+templateName, name, description,nameFormat,summaryFormat,featureName,order
+QT1, QT1L1, "QT1L1 desc","{0}","{0}","F1",1
+QT1, QT1L2, "QT1L2 desc","{0}","{0}","F2",2
+QT1, QT1L3, "QT1L3 desc","{0}","{0}","F3",3
+QT1, QT1L4, "QT1L4 desc","{0}","{0}","F4",4
+QT2, QT2L1, "QT2L1 desc","{0}","{0}","F4",1
+QT2, QT2L2, "QT2L2 desc","{0}","{0}","F3",2
+QT2, QT2L3, "QT2L3 desc","{0}","{0}","F2",3
+QT2, QT2L4, "QT2L4 desc","{0}","{0}","F1",4

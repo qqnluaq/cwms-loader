@@ -1,0 +1,18 @@
+[
+    {
+        "@test": true,        
+        "@type": "featureClass",
+        "name": "FC1",
+        "description": "F C 1",
+        "dataSourceId": "TEST_DATA_SOURCE",
+        "geometryAttrTableName": "FOO",
+        "configurationScopeName": "SCOPE1",
+        "@children": [
+            {
+                "@delete": true,
+                "@type": "sourceTable",
+                "name": "ST1"
+            }
+        ]
+    }
+]

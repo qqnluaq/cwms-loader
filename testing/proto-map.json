@@ -1,0 +1,19 @@
+[
+  {
+    "object": "maps",
+    "path": "mapApplications/TEST1",
+    "data": {
+      "@type": "http://cwm.gov.bc.ca/v1/map",
+      "name": "map_name",
+      "title": "map title",
+      "description": "map description",
+      "mapApplicationId": "TEST1",
+      "custodianId": "00000000-0000-0000-0000-000000000001",
+      "defaultBaseLayerId": null,
+      "mapPrintRenderingServiceId": null,
+      "properties": {
+        "foo": "bar"
+      }
+    }  
+  }
+]

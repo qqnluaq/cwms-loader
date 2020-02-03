@@ -1,0 +1,49 @@
+[
+    {
+        "@mode": "delete",
+        "@parents" : [
+            {
+                "name": "OATS_ALR_BOUNDARY_LINES_SVW"
+            },
+            {
+                "name": "All"
+            }
+        ],
+        "@type": "templateLayerAttribute",
+        "name": "GEOMETRY",
+        "title": "GEOMETRY",
+        "attributeOrder": 10,
+        "description": "GEOMETRY",
+        "associatedFeatureViewAttributeId": "OATS_ALR_BOUNDARY_LINES_SVW.GEOMETRY"
+    },
+    {
+        "@mode": "delete",
+        "@parents" : [
+            {
+                "name": "OATS_ALR_BOUNDARY_LINES_SVW"
+            }
+        ],
+        "@type": "featureViewAttribute",
+        "name": "GEOMETRY",
+        "title": "GEOMETRY",
+        "attributeOrder": 10,
+        "description": "GEOMETRY",
+        "sourceAttributeId": "OATS_ALR_BOUNDARY_LINES_SVW.OATS_ALR_BOUNDARY_LINES_SVW.GEOMETRY"
+    },
+    {
+        "@mode": "delete",
+        "@parents" : [
+            {
+                "name": "OATS_ALR_BOUNDARY_LINES_SVW"
+            },
+            {
+                "name": "OATS_ALR_BOUNDARY_LINES_SVW"
+            }
+        ],
+        "@type": "sourceAttribute",
+        "name": "GEOMETRY",
+        "attributeOrder": 10,
+        "description": "GEOMETRY",
+        "attributeTypeCode": "Geometry"
+    }
+]

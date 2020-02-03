@@ -1,0 +1,49 @@
+[
+    {
+        "@type": "queryTemplate",
+        "name": "qt1",
+        "title": "query template 2",
+        "disclaimer": "disclaimer 1",
+        "mapApplicationId": "TEST1",
+        "@children": [
+            {
+                "@type": "queryTemplateLayer",
+                "name": "qtl1",
+                "description": "q t l 1",
+                "nameFormat": "{0}",
+                "summaryFormat": "{0}",
+                "associatedFeatureViewId": "TEST_FV_1",
+                "layerOrder": 1,
+                "@children": [
+                    {
+                        "@type": "templateLayerAttribute",
+                        "name": "tla1",
+                        "title": "t l a 1",
+                        "attributeOrder": 1,
+                        "description": "t l a 1",
+                        "associatedFeatureViewAttributeId": "ADM_NR_DISTRICTS_SP.DISTRICT_NAME"
+                    }
+                ]
+            },
+            {
+                "@type": "queryTemplateLayer",
+                "name": "qtl2",
+                "description": "q t l 2",
+                "nameFormat": "{0}",
+                "summaryFormat": "{0}",
+                "associatedFeatureViewId": "PARK_SEC",
+                "layerOrder": 2,
+                "@children": [
+                    {
+                        "@type": "templateLayerAttribute",
+                        "name": "tla2",
+                        "title": "t l a 2",
+                        "attributeOrder": 2,
+                        "description": "t l a 2",
+                        "associatedFeatureViewAttributeId": "ADM_NR_DISTRICTS_SP.ORG_UNIT"
+                    }
+                ]
+            }
+        ]
+    }
+]

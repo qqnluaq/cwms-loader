@@ -1,0 +1,52 @@
+[
+    {
+        "@mode": "update",
+        "@preDelete": [ "featureViews/FV1" ],
+        "@type": "featureClass",
+        "name": "FC1",
+        "description": "F C 1",
+        "dataSourceId": "TEST_DATA_SOURCE",
+        "geometryAttrTableName": "FOO",
+        "configurationScopeName": "SCOPE",
+        "@children": [
+            {
+                "@mode": "recreate",
+                "@type": "sourceTable",
+                "name": "ST1",
+                "@children": [
+                    {
+                        "@mode": "recreate",
+                        "@type": "sourceAttribute",
+                        "name": "STA1",
+                        "attributeOrder": 1,
+                        "description": "S T A 1",
+                        "attributeTypeId": "String"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@mode": "create",
+        "@type": "featureView",
+        "name": "FV1",
+        "description": "F V 1",
+        "metadataUrl": "http://",
+        "oauth2RenderScopeName": "render-test",
+        "oauth2ReportScopeName": "report-test",
+        "oauth2ViewScopeName": "view-test",
+        "featureViewCategoryId": "TEST_FEATURE_VIEW_CATEGORY",
+        "featureClassId": "FC1",
+        "@children": [
+            {
+                "@mode": "create",
+                "@type": "featureViewAttribute",
+                "name": "FVA1",
+                "title": "F V A 1",
+                "attributeOrder": 1,
+                "description": "F V A 1",
+                "sourceAttributeId": "FC1.ST1.STA1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "@parents": [
+      {
+        "name": "FishWildlife"
+      }
+    ],
+    "@mode": "recreate",
+    "@type": "queryTemplateLayer",
+    "name": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "description": "Results - Activity Treated MSMA Trees",
+    "titleFormat": "Activity Treatment Unit ID - Silviculture Method Code",
+    "summaryFormat": "{0} - {1}",
+    "associatedFeatureViewId": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "layerOrder": 106,
+    "@children": [
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "ACTIVITY_TREATMENT_UNIT_ID",
+        "title": "Activity Treatment Unit ID",
+        "attributeOrder": 1,
+        "description": "Activity Treatment Unit ID",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.ACTIVITY_TREATMENT_UNIT_ID"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "SILV_METHOD_CODE",
+        "title": "Silviculture Method Code",
+        "attributeOrder": 7,
+        "description": "Silviculture Method Code",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.SILV_METHOD_CODE"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "FEATURE_AREA_SQM",
+        "title": "Area Square Meters",
+        "attributeOrder": 41,
+        "description": "Area Square Meters",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.FEATURE_AREA_SQM"
+      }
+    ]
+  },
+  {
+    "@parents": [
+      {
+        "name": "Forest"
+      }
+    ],
+    "@mode": "recreate",
+    "@type": "queryTemplateLayer",
+    "name": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "description": "Results - Activity Treated MSMA Trees",
+    "titleFormat": "Activity Treatment Unit ID - Silviculture Method Code",
+    "summaryFormat": "{0} - {1}",
+    "associatedFeatureViewId": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "layerOrder": 251,
+    "@children": [
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "ACTIVITY_TREATMENT_UNIT_ID",
+        "title": "Activity Treatment Unit ID",
+        "attributeOrder": 1,
+        "description": "Activity Treatment Unit ID",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.ACTIVITY_TREATMENT_UNIT_ID"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "SILV_METHOD_CODE",
+        "title": "Silviculture Method Code",
+        "attributeOrder": 7,
+        "description": "Silviculture Method Code",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.SILV_METHOD_CODE"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "FEATURE_AREA_SQM",
+        "title": "Area Square Meters",
+        "attributeOrder": 41,
+        "description": "Area Square Meters",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.FEATURE_AREA_SQM"
+      }
+    ]
+  },
+  {
+    "@parents": [
+      {
+        "name": "Land"
+      }
+    ],
+    "@mode": "recreate",
+    "@type": "queryTemplateLayer",
+    "name": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "description": "Results - Activity Treated MSMA Trees",
+    "titleFormat": "Activity Treatment Unit ID - Silviculture Method Code",
+    "summaryFormat": "{0} - {1}",
+    "associatedFeatureViewId": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "layerOrder": 395,
+    "@children": [
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "ACTIVITY_TREATMENT_UNIT_ID",
+        "title": "Activity Treatment Unit ID",
+        "attributeOrder": 1,
+        "description": "Activity Treatment Unit ID",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.ACTIVITY_TREATMENT_UNIT_ID"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "SILV_METHOD_CODE",
+        "title": "Silviculture Method Code",
+        "attributeOrder": 7,
+        "description": "Silviculture Method Code",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.SILV_METHOD_CODE"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "FEATURE_AREA_SQM",
+        "title": "Area Square Meters",
+        "attributeOrder": 41,
+        "description": "Area Square Meters",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.FEATURE_AREA_SQM"
+      }
+    ]
+  },
+  {
+    "@parents": [
+      {
+        "name": "Mining"
+      }
+    ],
+    "@mode": "recreate",
+    "@type": "queryTemplateLayer",
+    "name": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "description": "Results - Activity Treated MSMA Trees",
+    "titleFormat": "Activity Treatment Unit ID - Silviculture Method Code",
+    "summaryFormat": "{0} - {1}",
+    "associatedFeatureViewId": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "layerOrder": 539,
+    "@children": [
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "ACTIVITY_TREATMENT_UNIT_ID",
+        "title": "Activity Treatment Unit ID",
+        "attributeOrder": 1,
+        "description": "Activity Treatment Unit ID",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.ACTIVITY_TREATMENT_UNIT_ID"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "SILV_METHOD_CODE",
+        "title": "Silviculture Method Code",
+        "attributeOrder": 7,
+        "description": "Silviculture Method Code",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.SILV_METHOD_CODE"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "FEATURE_AREA_SQM",
+        "title": "Area Square Meters",
+        "attributeOrder": 41,
+        "description": "Area Square Meters",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.FEATURE_AREA_SQM"
+      }
+    ]
+  },
+  {
+    "@parents": [
+      {
+        "name": "OilGas"
+      }
+    ],
+    "@mode": "recreate",
+    "@type": "queryTemplateLayer",
+    "name": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "description": "Results - Activity Treated MSMA Trees",
+    "titleFormat": "Activity Treatment Unit ID - Silviculture Method Code",
+    "summaryFormat": "{0} - {1}",
+    "associatedFeatureViewId": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "layerOrder": 684,
+    "@children": [
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "ACTIVITY_TREATMENT_UNIT_ID",
+        "title": "Activity Treatment Unit ID",
+        "attributeOrder": 1,
+        "description": "Activity Treatment Unit ID",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.ACTIVITY_TREATMENT_UNIT_ID"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "SILV_METHOD_CODE",
+        "title": "Silviculture Method Code",
+        "attributeOrder": 7,
+        "description": "Silviculture Method Code",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.SILV_METHOD_CODE"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "FEATURE_AREA_SQM",
+        "title": "Area Square Meters",
+        "attributeOrder": 41,
+        "description": "Area Square Meters",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.FEATURE_AREA_SQM"
+      }
+    ]
+  },
+  {
+    "@parents": [
+      {
+        "name": "Water"
+      }
+    ],
+    "@mode": "recreate",
+    "@type": "queryTemplateLayer",
+    "name": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "description": "Results - Activity Treated MSMA Trees",
+    "titleFormat": "Activity Treatment Unit ID - Silviculture Method Code",
+    "summaryFormat": "{0} - {1}",
+    "associatedFeatureViewId": "ACTVTY_TREATED_MSMA_TREES_SVW",
+    "layerOrder": 829,
+    "@children": [
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "ACTIVITY_TREATMENT_UNIT_ID",
+        "title": "Activity Treatment Unit ID",
+        "attributeOrder": 1,
+        "description": "Activity Treatment Unit ID",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.ACTIVITY_TREATMENT_UNIT_ID"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "SILV_METHOD_CODE",
+        "title": "Silviculture Method Code",
+        "attributeOrder": 7,
+        "description": "Silviculture Method Code",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.SILV_METHOD_CODE"
+      },
+      {
+        "@mode": "recreate",
+        "@type": "templateLayerAttribute",
+        "name": "FEATURE_AREA_SQM",
+        "title": "Area Square Meters",
+        "attributeOrder": 41,
+        "description": "Area Square Meters",
+        "associatedFeatureViewAttributeId": "ACTVTY_TREATED_MSMA_TREES_SVW.FEATURE_AREA_SQM"
+      }
+    ]
+  }
+]

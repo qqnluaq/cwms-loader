@@ -1,0 +1,11 @@
+[
+    {
+        "@type": "managedWMSServiceLayer",
+        "name": "SERVICELAYER1",
+        "title": "SERVICELAYER1 title",
+        "description": "SERVICELAYER1 description",
+        "defaultStyleId": "layer_style_name",
+        "associatedFeatureViewId": "FV1",
+        "associatedManagedWMSServiceId": "TEST_GEOSERVER_WMS"
+    }
+]

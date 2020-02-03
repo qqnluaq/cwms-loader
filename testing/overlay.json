@@ -1,0 +1,30 @@
+[
+    {
+        "@type": "overlay",
+        "name": "OVERLAY1",
+        "title": "OVERLAY1 title",
+        "mapServiceId": "TEST_GEOSERVER_WMS",
+        "properties": {},
+        "mapId": "MA1.MAP1",
+        "@children": [
+            {
+                "@type": "styledLayer",
+                "name": "STYLEDLAYER1",
+                "title": "STYLEDLAYER1 title",
+                "properties": {},
+                "wmsServiceLayerId": "SERVICELAYER1",
+                "wmsLayerStyleId": "layer_style_name",
+                "@children": [
+                    {
+                        "@type": "wmsStyledLayerAttribute",
+                        "name": "STYLEDLAYER1ATTR1",
+                        "title": "STYLEDLAYER1ATTR1 title",
+                        "description": "STYLEDLAYER1ATTR1 description",
+                        "attributeOrder": 1,
+                        "associatedFeatureViewAttributeId": "FVA1"
+                    }
+                ]
+            }
+        ]
+    }
+]

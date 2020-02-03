@@ -1,0 +1,17 @@
+[
+  {
+    "object": "styledLayers",
+    "path": "overlays/TEST1.map_name.overlay_name",
+    "data": {
+      "@type": "http://cwm.gov.bc.ca/v1/styledLayer",
+      "name": "styled_layer_name",
+      "title": "styled layer title",
+      "overlayId": "TEST1.map_name.overlay_name",
+      "wmsServiceLayerId": "24243f33-62db-6db5-e055-0221f6ac0312",
+      "wmsLayerStyleId": "099d1339-1141-4d1d-9f65-2f5362559f29",
+      "properties": {
+        "foo": "bar"
+      }
+    }  
+  }
+]

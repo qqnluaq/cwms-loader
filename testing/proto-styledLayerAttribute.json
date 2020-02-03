@@ -1,0 +1,15 @@
+[
+  {
+    "object": "wmsStyledLayerAttributes",
+    "path": "styledLayers/TEST1.map_name.overlay_name.styled_layer_name",
+    "data": {
+      "@type": "http://cwm.gov.bc.ca/v1/wmsStyledLayerAttribute",
+      "name": "styled_layer_attribute_name",
+      "title": "styled layer attribute title",
+      "attributeOrder": "1",
+      "description": "styled layer attribute description",
+      "associatedFeatureViewAttributeId": "232e8b2e-75a1-4e2b-e055-0221f6ac0312",
+      "parentId": "842f9bf3-6e54-43f7-a2cb-3e611eb025e6"
+    }  
+  }
+]

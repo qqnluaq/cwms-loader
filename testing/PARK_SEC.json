@@ -1,0 +1,56 @@
+[
+  {
+    "@type": "http://cwm.gov.bc.ca/v1/featureClass",
+    "name": "PARK_SEC",
+    "description": "PARK_SEC description",
+    "dataCustodianGuid": "000",
+    "geometryAttrTableName": "ADM_NR_DISTRICTS_SP",
+    "geometryAttrColumnName": "GEOMETRY",
+    "configurationScopeName": "TA Configuration",
+    "activePeriodStart": null,
+    "activePeriodEnd": null,
+    "doesSupportTransactionTime": false,
+    "doesSupportValidTime": false,
+    "startTimeAttrTableName": null,
+    "endTimeAttrTableName": null,
+    "startTimeAttrColumnName": null,
+    "endTimeAttrColumnName": null,
+    "latestTestResult": null,
+    "sourceTables": null,
+    "dataSourceId": "OSDB_DEV_PROXY_CWMS",
+    "@children": [
+      {
+        "@type": "http://cwm.gov.bc.ca/v1/sourceTable",
+        "name": "TA_PARK_ECORES_PA",
+        "schema": "proxy_cwms"
+      }
+    ]
+  },
+
+  {
+    "@type": "http://cwm.gov.bc.ca/v1/featureView",
+    "name": "PARK_SEC",
+    "description": "PARK_SEC description",
+    "isTransactionTimeEnabled": false,
+    "isValidTimeEnabled": true,
+    "isSensitive": false,
+    "metadataUrl": "http://metadata.org/Application",
+    "oauth2RenderScopeName": "PARK_SEC_RENDER",
+    "oauth2ReportScopeName": "PARK_SEC_REPORT",
+    "oauth2ViewScopeName": "PARK_SEC_VIEW",
+    "featureViewCategoryId": "TEST_FEATURE_VIEW_CATEGORY",
+    "featureClassId": "PARK_SEC"
+  },
+
+  {
+    "@type": "http://cwm.gov.bc.ca/v1/managedWMSServiceLayer",
+    "description": "PARK_SEC description",
+    "name": "sec:PARK_SEC",
+    "title": "PARK_SEC title",
+    "defaultStyleId": "00000000-0000-0000-0000-000000000001",
+    "associatedFeatureViewId": "PARK_SEC",
+    "associatedWMSServiceLayerTemplateId": null,
+    "associatedManagedWMSServiceId": "TEST_GEOSERVER_WMS",
+    "metadataUrl": "foo"
+  }
+]

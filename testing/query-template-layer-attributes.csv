@@ -1,0 +1,5 @@
+templateName, templateLayerName, name, title, order, description, featureAttributeName
+QT1, QT1L1, QT1L1A1, "QT1L1A1 title", 1, "QT1L1A1 desc", F1A1
+QT1, QT1L1, QT1L1A2, "QT1L1A2 title", 2, "QT1L1A2 desc", F1A2
+QT1, QT1L1, QT1L1A3, "QT1L1A3 title", 3, "QT1L1A3 desc", F1A3
+QT1, QT1L1, QT1L1A4, "QT1L1A4 title", 4, "QT1L1A4 desc", F1A4
